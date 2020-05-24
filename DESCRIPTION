@@ -1,0 +1,21 @@
+Package: fasttau
+Title: Compute Kendall's Tau-A Coefficient Quickly
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Aakash",
+           family = "Prashar",
+           role = c("aut", "cre"),
+           email = "akprashar@ucdavis.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package uses RCPP to compute the Kendall rank correlation coefficient (Tau-A only).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+Suggests: 
+    testthat
